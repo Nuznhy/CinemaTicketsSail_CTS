@@ -13,7 +13,6 @@ def hello_world():  # put application's code here
 if __name__ == '__main__':
 
     from waitress import serve
-    print(os.getenv('FLASK_DEBUG'))
     match os.getenv('FLASK_DEBUG'):
         case "0":
             serve(app, host="0.0.0.0", port=8080)
