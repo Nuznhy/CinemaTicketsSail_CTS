@@ -92,3 +92,5 @@ appengine_config.py
 
 # Poetry lock file
 poetry.lock
+
+.DS_Store
